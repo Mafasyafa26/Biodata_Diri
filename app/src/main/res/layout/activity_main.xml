@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"/>
+
+        <Spinner
+            android:id="@+id/spn_jkelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp" />
+
+        <EditText
+            android:id="@+id/edt_tempatLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tempat Lahir"/>
+
+        <Button
+            android:id="@+id/btn_tanggalLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal lahir"/>
+
+        <EditText
+            android:id="@+id/edt_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"/>
+
+        <EditText
+            android:id="@+id/edt_hobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hobi"/>
+
+        <EditText
+            android:id="@+id/edt_minat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Minat"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Submit"/>
+
+        <TextView
+            android:id="@+id/txt_biodatadiri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biodata Diri"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
